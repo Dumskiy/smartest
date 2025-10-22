@@ -58,8 +58,8 @@ h1 {
 }
 
 .sound-button {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: none;
   background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
@@ -70,10 +70,10 @@ h1 {
   transition: all 0.3s;
 }
 
-.sound-button:hover {
+/* .sound-button:hover {
   transform: scale(1.1);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
-}
+} */
 
 .sound-button:active {
   transform: scale(0.95);
