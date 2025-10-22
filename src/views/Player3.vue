@@ -17,7 +17,7 @@ const store = usePlayersStore()
 const { players } = storeToRefs(store)
 const player = players.value[2]
 
-const audio = new Audio('/sounds/vargan.mp3')
+const audio = new Audio(player.sound)
 
 function playSound() {
   audio.currentTime = 0

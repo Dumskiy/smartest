@@ -17,7 +17,7 @@ const store = usePlayersStore()
 const { players } = storeToRefs(store)
 const player = players.value[1]
 
-const audio = new Audio('/sounds/ksilofon.mp3')
+const audio = new Audio(player.sound)
 
 function playSound() {
   audio.currentTime = 0

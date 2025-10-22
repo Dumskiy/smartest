@@ -22,9 +22,9 @@ function saveScores(players) {
 
 export const usePlayersStore = defineStore('players', () => {
   const defaultPlayers = [
-    { id: 1, name: 'Оля Лит', score: 0 },
-    { id: 2, name: 'Оля Чик', score: 0 },
-    { id: 3, name: 'Катя', score: 0 }
+    { id: 1, name: 'Оля Лит', score: 0, sound: '/sounds/bass-drum-cymbal.mp3' },
+    { id: 2, name: 'Оля Чик', score: 0, sound: '/sounds/ksilofon.mp3' },
+    { id: 3, name: 'Катя', score: 0, sound: '/sounds/vargan.mp3' }
   ]
 
   const savedScores = loadScores()
