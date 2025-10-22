@@ -150,16 +150,16 @@ onUnmounted(() => {
 
 .fullscreen-btn {
   right: 1rem;
-  background-image: url('../../public/images/fullscreen.svg');
+  background-image: url('../../images/fullscreen.svg');
 }
 
 .fullscreen-btn.active {
-  background-image: url('../../public/images/fullscreen-exit.svg');
+  background-image: url('../../images/fullscreen-exit.svg');
 }
 
 .reset-btn {
   left: 1rem;
-  background-image: url('../../public/images/reset.svg');
+  background-image: url('../../images/reset.svg');
 }
 
 h1 {
@@ -172,7 +172,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  background-image: url('../../public/images/idea.svg');
+  background-image: url('../../images/idea.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 80%;
